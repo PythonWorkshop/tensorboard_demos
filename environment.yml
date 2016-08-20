@@ -1,0 +1,9 @@
+name: tensorflow
+channels:
+  - conda-forge
+dependencies:
+  - python=3.5
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - tensorflow
