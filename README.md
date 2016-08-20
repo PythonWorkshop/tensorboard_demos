@@ -1,5 +1,7 @@
 # Make Sense of Deep Neural Networks using TensorBoard
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/pythonworkshop/tensorboard_demos)
+
 ## Getting Started
 
 _Note: Notebooks in this repo are written in Python 3. You'll need Jupyter/iPython to run them._
@@ -15,7 +17,7 @@ cd tensorboard_demos/
 
 Then, choose one of the options below: Conda (if you have [Anaconda](https://www.continuum.io/downloads) and [conda-env](https://github.com/conda/conda-env) installed), otherwise pip.
 
-### Option A: Conda install
+#### Option A: Conda install
 
 1. Create a conda environment (auto-installs packages as per `environment.yml`) and activate it:
 
@@ -32,7 +34,7 @@ Then, choose one of the options below: Conda (if you have [Anaconda](https://www
 
 _For troubleshooting, see TensorFlow's [conda install instructions](https://www.tensorflow.org/versions/master/get_started/os_setup.html#anaconda-installation)._
 
-### Option B: Pip install
+#### Option B: Pip install
 
 1. Install dependencies first (NumPy, matplotlib, scikit-learn):
 
@@ -48,6 +50,8 @@ _For troubleshooting, see TensorFlow's [conda install instructions](https://www.
   jupyter notebook tensorboard_basics.ipynb
   ```
 
-### Binder (_coming soon_)
+### Binder
 
-If you have trouble getting TensorFlow to work, go to the [repo](https://github.com/PythonWorkshop/tensorboard_demos) and hit the **launch binder** badge to run in the cloud. Note that this is an experimental feature.
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/pythonworkshop/tensorboard_demos)
+
+If you have trouble getting TensorFlow to work, hit the **launch binder** badge to run in the cloud. Note that this is an experimental feature.
