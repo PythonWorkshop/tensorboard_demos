@@ -55,3 +55,15 @@ _For troubleshooting, see TensorFlow's [conda install instructions](https://www.
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/pythonworkshop/tensorboard_demos)
 
 If you have trouble getting TensorFlow to work, hit the **launch binder** badge to run in the cloud. Note that this is an experimental feature.
+
+## Running TensorBoard
+
+Follow the notebook to build a neural network and train it. During training, make sure events are logged using [`tf.train.SummaryWriter`](https://www.tensorflow.org/versions/r0.10/api_docs/python/train.html#SummaryWriter) (code included in demo). Then run TensorBoard, pointing it to the log directory:
+
+```bash
+tensorboard --logdir=logs
+```
+
+And then open the URL that gets printed, in your browser (typically: [http://0.0.0.0:6006](http://0.0.0.0:6006)).
+
+Explore the structure of the neural network in the Graph tab, and the summaries you reported in the Events tab.
