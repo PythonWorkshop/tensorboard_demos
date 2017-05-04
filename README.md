@@ -32,7 +32,7 @@ Then, choose one of the options below: Conda (if you have [Anaconda](https://www
   jupyter notebook tensorboard_basics.ipynb
   ```
 
-_For troubleshooting, see TensorFlow's [conda install instructions](https://www.tensorflow.org/versions/master/get_started/os_setup.html#anaconda-installation)._
+_For troubleshooting, see TensorFlow's [Anaconda installation](https://www.tensorflow.org/install) instructions._
 
 #### Option B: Pip install
 
@@ -42,7 +42,7 @@ _For troubleshooting, see TensorFlow's [conda install instructions](https://www.
   pip3 install numpy matplotlib scikit-learn
   ```
 
-2. Install TensorFlow as per [instructions](https://www.tensorflow.org/versions/master/get_started/os_setup.html#pip-installation).
+2. Install TensorFlow as per [instructions](https://www.tensorflow.org/install/) for your platform.
 
 3. Run notebook:
 
