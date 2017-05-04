@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-_Note: Notebooks in this repo are written in Python 3. You'll need Jupyter/iPython to run them._
+_Note: Notebooks in this repo are written in Python 3 and use TensorFlow version 0.x. You'll need Jupyter/iPython to run them._
 
 ### Local installation
 
