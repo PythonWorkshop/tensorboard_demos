@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-_Note: Notebooks in this repo are written in Python 3 and use TensorFlow version 0.x. You'll need Jupyter/iPython to run them._
+_Note: Notebooks in this repo are written in Python 3 and use TensorFlow (version 1.x). You'll need Jupyter/iPython to run them._
 
 ### Local installation
 
@@ -58,7 +58,7 @@ If you have trouble getting TensorFlow to work, hit the **launch binder** badge 
 
 ## Running TensorBoard
 
-Follow the notebook to build a neural network and train it. During training, make sure events are logged using [`tf.train.SummaryWriter`](https://www.tensorflow.org/versions/r0.10/api_docs/python/train.html#SummaryWriter) (code included in demo). Then run TensorBoard, pointing it to the log directory:
+Follow the notebook to build a neural network and train it. During training, make sure events are logged using [`tf.summary.FileWriter`](https://www.tensorflow.org/api_docs/python/tf/summary/FileWriter) (code included in demo). Then run TensorBoard, pointing it to the log directory:
 
 ```bash
 tensorboard --logdir=logs
